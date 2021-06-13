@@ -1,0 +1,128 @@
+body {
+    margin: 0%;
+    background-image: url(Image/Background.png);
+    background-repeat
+}
+
+
+
+#top_menu {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: auto;
+    display: table;
+}
+
+#top_menu li {
+    display: table-cell;
+    width: 140px;
+}
+
+#menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    line-height: 140px;
+    text-align: center;
+}
+
+#menu a:hover {
+    color: rgb(247, 100, 47);
+}
+
+
+.nom {
+    margin-top: 8%;
+    text-align: center;
+}
+
+#Nom {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    color: white;
+    padding-right: 25vw;
+}
+
+#Prénom {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    color: white;
+    padding-right: 24vw;
+}
+
+#Mail {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    color: white;
+    padding-right: 25.3vw;
+}
+
+#Raison {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    color: white;
+    padding-right: 24.4vw;
+}
+
+#Message {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    color: white;
+    padding-right: 23.6vw;
+}
+
+.bouton {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(247, 100, 47);
+    border: 0px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#barre {
+    border-style: none;
+    width: 500px;
+    height: 30px;
+
+}
+
+.deroulant {
+    margin-left: 140px;
+    border-style: none;
+    width: 650px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.ZoneMessage {
+    margin-left: 140px;
+    border-style: none;
+    width: 650px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#Bouttons {
+    margin-right: 350px;
+}
+
+
+input,
+select,
+textarea {
+    font-family: Microsoft New Tai Lue, arial, sans-serif;
+    background-color: rgba(131, 130, 130, 0.3);
+    color: white;
+    border-radius: 5px;
+}
+
+
+select option {
+    color: black;
+}
+
+#Contact {
+    color: rgb(247, 100, 47);
+    text-decoration: underline;
+    text-decoration-color: rgb(247, 100, 47);
+}
